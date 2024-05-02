@@ -1,5 +1,4 @@
-
-
+/* Estilizando a seção "main" */
 main {
     background: #ff7a7a;
     width: 100%;
@@ -12,16 +11,19 @@ main {
     font-family: sans-serif;
 }
 
+/* Estilizando a seção "div" */
 div {
     margin: auto;
     width: 170px;
 }
 
-#imagem1 {
+/* Estilizando as imagens através das IDs "imagem1" e "imagem2" */
+#imagem1, #imagem2 {
     width: 200px;
     height: 200px;
 }
 
+/* Estilizando os botões através da classe "btn" */
 .btn {
     background: black;
     color: white;
@@ -30,10 +32,12 @@ div {
     width: 80px;
     border-radius: 5px;
 }
+    /* Definindo estilizações especiais para o botão de "sim" */
     .sim {
         position: fixed;
         display: block;
     }
+    /* Definindo estilizações especiais para o botão de "não" */
     .nao {
         position: absolute;
     }
